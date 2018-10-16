@@ -1,0 +1,19 @@
+{
+  "name": "three-clashlike-controls",
+  "version": "1.0.0",
+  "description": "Clash-of-clans-like controls for THREE.js",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylejlin/three-clashlike-controls.git"
+  },
+  "keywords": [
+    "three.js"
+  ],
+  "author": "Kyle Lin",
+  "license": "MIT",
+  "homepage": "https://github.com/kylejlin/three-clashlike-controls#readme",
+  "peerDependencies": {
+    "three": "^0.97.0"
+  }
+}
