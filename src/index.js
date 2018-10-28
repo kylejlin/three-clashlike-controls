@@ -10,7 +10,7 @@ const clientToNDC = (x, y) => [
 export default (camera, world, domElement) => {
   const hitbox = new THREE.Mesh(
     new THREE.PlaneBufferGeometry(HUGE_NUMBER, HUGE_NUMBER),
-    new THREE.MeshBasicMaterial({ color: 0xff0000 }),
+    new THREE.MeshBasicMaterial({ color: 0xff0000, side: THREE.DoubleSide }),
   );
   hitbox.rotation.x = Math.PI * 0.5;
   hitbox.position.set(0, -1, 0);
